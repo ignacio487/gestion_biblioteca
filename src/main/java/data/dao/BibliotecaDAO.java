@@ -2,6 +2,8 @@ package data.dao;
 
 import modelo.Libro;
 
+import java.util.ArrayList;
+
 public class BibliotecaDAO {
 
 	public ArrayList<Libro> buscarLibros(DSLContext query, Libro libro) {
