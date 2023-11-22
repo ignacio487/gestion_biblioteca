@@ -4,8 +4,8 @@ public class Libro {
 	private String titulo;
 	private String autor;
 	private String ISBN;
-	private Sring genero;
-	private int año;
+	private String genero;
+	private int aÃ±o;
 
 	public String getTitulo() {
 		return this.titulo;
@@ -31,23 +31,23 @@ public class Libro {
 		this.ISBN = ISBN;
 	}
 
-	public Sring getGenero() {
+	public String getGenero() {
 		return this.genero;
 	}
 
-	public void setGenero(Sring genero) {
+	public void setGenero(String genero) {
 		this.genero = genero;
 	}
 
-	public int getAño() {
-		return this.año;
+	public int getAÃ±o() {
+		return this.aÃ±o;
 	}
 
-	public void setAño(int año) {
-		this.año = año;
+	public void setAÃ±o(int aÃ±o) {
+		this.aÃ±o = aÃ±o;
 	}
 
-	public Libro(String titulo, Object autor_String_ISBN_String, String genero, int año) {
-		throw new UnsupportedOperationException();
+	public Libro(String titulo, Object autor_String_ISBN_String, String genero, int aÃ±o) {
+		super();
 	}
 }

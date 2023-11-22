@@ -26,6 +26,6 @@ public class Prestamo {
 	}
 
 	public Prestamo(String fechaInicio, String fechaDevolucion) {
-		throw new UnsupportedOperationException();
+		super();
 	}
 }

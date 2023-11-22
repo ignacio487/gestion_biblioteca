@@ -48,6 +48,6 @@ public class Usuario {
 	}
 
 	public Usuario(String nombre, int numeroDeIdentificacion, String direccion, String numeroDeTelefono, String correoElectronico) {
-		throw new UnsupportedOperationException();
+		super();
 	}
 }

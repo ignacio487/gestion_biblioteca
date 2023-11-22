@@ -34,6 +34,6 @@ public class Biblioteca {
 	}
 
 	public Biblioteca(String nombre, String direccion, String numeroDeTelefono) {
-		throw new UnsupportedOperationException();
+		super();
 	}
 }

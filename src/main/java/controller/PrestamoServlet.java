@@ -8,7 +8,7 @@ public class PrestamoServlet {
 		throw new UnsupportedOperationException();
 	}
 
-	public boolean devolverLibro(libro libro) {
+	public boolean devolverLibro(Libro libro) {
 		throw new UnsupportedOperationException();
 	}
 }

@@ -2,6 +2,8 @@ package controller;
 
 import modelo.Libro;
 
+import java.util.ArrayList;
+
 public class BibliotecaServlet {
 
 	public void agregarLibro(Libro libro) {
