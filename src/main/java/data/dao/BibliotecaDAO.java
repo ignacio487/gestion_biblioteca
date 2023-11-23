@@ -12,15 +12,16 @@ public class BibliotecaDAO {
 		return new ArrayList<>();
 	}
 
-	public boolean agregarLibro(DSLContext query, Libro libro) {
-		return new ArrayList<>();
+
+	public boolean agregarLibro(DSLContext query,Libro libro) {
+		return false;
 	}
 
 	public ArrayList<Libro> obtenerLibros(DSLContext query, Libro libro) {
 		return new ArrayList<>();
 	}
 
-	public ArrayList<Libro> eliminarLibros(DSLContext query, Libro libro) {
+	public ArrayList<Libro> eliminarLibro(DSLContext query, Libro libro) {
 		return new ArrayList<>();
 	}
 }
